@@ -30,6 +30,42 @@ a, button {
     outline: medium none;
 }
 
+.sm-only {
+    display: none;
+}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .sm-only {
+        display: block;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .app-btn {
+        display: block;
+    }
+    .sm-only {
+        display: block;
+    }
+}
+
 
 
 @media (max-width: 767px) {
@@ -58,6 +94,9 @@ a, button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.f-right {
+    float: right;
 }
 .slider-area {
     margin-top: -1px;
@@ -128,9 +167,6 @@ a, button {
 .app-btn {
     text-align: center;
     display: inline-block;
-}
-.sm-only {
-    display: block;
 }
 .best-features-area {
     position: relative;
