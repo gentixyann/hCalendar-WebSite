@@ -273,3 +273,22 @@ a, button {
     left: 30px;
     top: 100px;
 }
+.fdb-block {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.fdb-block .fdb-box {
+    background: #fff;
+    padding: 2.75rem 1.5rem;
+    overflow: hidden;
+    color: #444;
+    border-radius: .25rem;
+    box-shadow: 0 .3125rem .875rem 0 hsla(0,0%,50.6%,.2) !important;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
